@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[50274],{50274:function(e,a,t){t.r(a);var x={lastWeek:"eeee 'tuần trước v\xe0o l\xfac' p",yesterday:"'h\xf4m qua v\xe0o l\xfac' p",today:"'h\xf4m nay v\xe0o l\xfac' p",tomorrow:"'ng\xe0y mai v\xe0o l\xfac' p",nextWeek:"eeee 'tới v\xe0o l\xfac' p",other:"P"};a.default=function(e,a,t,f){return x[e]}}}]);

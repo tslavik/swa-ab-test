@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[85536],{85536:function(e,a,r){r.r(a);var n={lastWeek:"eeee 'la semaine derni\xe8re \xe0' p",yesterday:"'hier \xe0' p",today:"'aujourd’hui \xe0' p",tomorrow:"'demain \xe0' p'",nextWeek:"eeee 'la semaine prochaine \xe0' p",other:"P"};a.default=function(e,a,r,t){return n[e]}}}]);

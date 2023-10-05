@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[62455],{62455:function(e,t,r){r.r(t);var n={lastWeek:"eeee 'اللي جاي الساعة' p",yesterday:"'إمبارح الساعة' p",today:"'النهاردة الساعة' p",tomorrow:"'بكرة الساعة' p",nextWeek:"eeee 'الساعة' p",other:"P"};t.default=function(e,t,r,p){return n[e]}}}]);

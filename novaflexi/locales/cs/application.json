@@ -1,0 +1,1095 @@
+{
+  "additionalInfo": {
+    "contactData": {
+      "alert": {
+        "buttonLabel": "Znovu načíst údaje",
+        "check": "Zkontrolujte prosím v aplikaci KLIENT, že jsou vyplněny všechny klíčové údaje. Nejčastěji chybí:",
+        "header": "Potřebujeme aktualizovat Vaše osobní a kontaktní údaje",
+        "items": [
+          {
+            "value": "souhlas se zpracováním osobních údajů"
+          },
+          {
+            "value": "daňové rezidentství"
+          },
+          {
+            "value": "kontaktní adresa v České republice"
+          },
+          {
+            "value": "kontaktní telefon s předvolbou +420"
+          }
+        ]
+      },
+      "contactAddressInCz": {
+        "label": "Kontaktní adresa v České republice",
+        "mockData": "Budějovická 14, Praha 4, 140 00"
+      },
+      "contactAddressNotInCz": {
+        "body": "Abyste mohli pokračovat, změňte prosím kontaktní údaje v Nastavení.",
+        "title": "Vaše kontaktní adresa musí být \nv České republice"
+      },
+      "email": {
+        "label": "E-mail",
+        "mockData": "jspokojeny@seznam.cz"
+      },
+      "phone": {
+        "label": "Telefon",
+        "mockData": "+420 774 791 155"
+      },
+      "title": "Kontaktní údaje"
+    },
+    "highRiskCountryAlert": {
+      "description": "Společně s touto žádostí zašlete kopii daňového přiznání nebo Potvrzení o výši příjmu od zaměstnavatele. Souhlas AML officera a Potvrzení o výši příjmu přiložte ke smlouvě, bez této přílohy nebude možné smlouvu akceptovat.",
+      "heading": "Před vytvořením smlouvy pošlete žádost ve znění „Žádám o schválení sjednání pojištění pro klienta z cizí země – jméno a příjmení, datum narození / r.č.“ na adresu aml@vig.cz."
+    },
+    "highlyInsured": {
+      "description": "Společně s touto žádostí zašlete kopii daňového přiznání nebo Potvrzení o výši příjmu od zaměstnavatele. \u2028Souhlas AML officera a Potvrzení o výši příjmu přiložte ke smlouvě, bez těchto příloh nebude možné smlouvu akceptovat.",
+      "title": "Před vytvořením smlouvy pošlete žádost na adresu aml@vig.cz ve znění „Žádám o schválení sjednání pojištění pro klienta s běžným pojistným přesahujícím částku 80 000 Kč/měsíc – jméno a příjmení, datum narození /r.č.“"
+    },
+    "inputs": {
+      "beneficiary": {
+        "hint": {
+          "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Nullam at arcu a est sollicitudin euismod. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Mauris tincidunt sem sed arcu. Integer vulputate sem a nibh rutrum consequat. Fusce aliquam vestibulum ipsum. Vestibulum fermentum tortor id mi. Nam sed tellus id magna elementum tincidunt. Nulla quis diam. Aliquam in lorem sit amet leo accumsan lacinia. Nullam faucibus mi quis velit.",
+          "header": "Obmyšlená osoba",
+          "title": "Kdo je obmyšlená osoba?"
+        },
+        "isBeneficiaryEmptyErrorMessage": "Vyberte jednu z možností.",
+        "items": [
+          {
+            "label": "Dle zákona",
+            "value": "BY_LAW"
+          },
+          {
+            "label": "Manžel",
+            "value": "HUSBAND"
+          },
+          {
+            "label": "Manželka",
+            "value": "WIFE"
+          },
+          {
+            "label": "Děti",
+            "value": "CHILDREN"
+          },
+          {
+            "label": "Jiná osoba",
+            "value": "OTHER"
+          }
+        ],
+        "label": "Kdo dostane peníze v případě úmrtí?",
+        "otherPerson": {
+          "dateOfBirth": {
+            "label": "Datum narození"
+          },
+          "firstName": {
+            "label": "Jméno"
+          },
+          "isBeneficiaryDateOfBirthEmptyErrorMessage": "Toto pole je povinné.",
+          "isBeneficiaryFirstNameEmptyErrorMessage": "Toto pole je povinné.",
+          "isBeneficiaryLastNameEmptyErrorMessage": "Toto pole je povinné.",
+          "lastName": {
+            "label": "Příjmení"
+          }
+        },
+        "placeholder": "Vyberte...",
+        "title": "Obmyšlená osoba"
+      },
+      "confirmationEmail": {
+        "confirmationEmailNotCheckedErrorMessage": "Bez udělení souhlasu nelze pokračovat.",
+        "label": "Beru na vědomí, že pokračováním v procesu sjednání mi bude, dle zákona, zaslána modelace pojištění na předsmluvní dokumentace na e-mail: "
+      },
+      "confirmationsAndAgreements": {
+        "marketingCommunicationConsent": {
+          "confirmationNotCheckedErrorMessage": "Bez tohoto potvrzení nelze pokračovat.",
+          "description": "<strong>Beru na vědomí, že moje údaje může pojišťovna Kooperativa zpracovávat na základě svého oprávněného zájmu také za účelem zasílání reklamních sdělení a nabízených služeb.</strong> Služby a produkty mi pojišťovna může nabízet elektronicky (přes SMS, e-mail, sociální sítě), poštou, osobně nebo telefonicky.",
+          "label": "Nechci, aby mi pojišťovna Kooperativa zasílala obchodní sdělení a nabídku svých služeb."
+        },
+        "thirdPartyPropositionConsent": {
+          "label": "Nabídky ušité na míru, případně slevové akce a nabídky obchodních partnerů Kooperativy.",
+          "mustBeNoErrorMessage": "V této kombinaci musí být zvoleno \"Ne\".",
+          "no": "Ne",
+          "thirdPartyPropositionConsentErrorMessage": "Vyberte jednu z možností.",
+          "yes": "Ano"
+        },
+        "title": "Potvrzení a souhlasy"
+      },
+      "legalEssentials": {
+        "additionalPurpose": {
+          "optional": {
+            "label": "Nepovinný údaj"
+          },
+          "title": "Pokud vedle pojistné ochrany sledujete provedením obchodu další účel ve smyslu zákona č. 253/2008 Sb., o některých opatřeních proti legalizaci výnosů z trestné činnosti a financování terorismu ve znění pozdějších předpisů, prosím uveďte jej."
+        },
+        "discrepanciesInInsuranceNeeds": {
+          "label": "Existují nesrovnalosti mezi Vašimi požadavky a nabízeným pojištěním?",
+          "which": {
+            "placeholder": "Napište jaké"
+          }
+        },
+        "fromHighRiskCountry": {
+          "warning": {
+            "header": "Před sjednáním musíte mít souhlas AML officera",
+            "items": [
+              {
+                "key": 1,
+                "value": "Pošlete žádost ve znění „Žádám o schválení sjednání pro PEP klienta - jméno a příjmení, datum narození/r. č.“ na aml@vig.cz. Souhlas přiložte ke smlouvě."
+              }
+            ]
+          }
+        },
+        "incomeType": {
+          "incomeTypeErrorMessage": "Vyberte jednu z možností.",
+          "whichIncomeType": {
+            "items": [
+              {
+                "label": "Ze závislé činnosti",
+                "value": "MAIN"
+              },
+              {
+                "label": "Z podnikání",
+                "value": "SELF_EMPLOYED"
+              },
+              {
+                "label": "Z jiného zdroje",
+                "value": "OTHER"
+              }
+            ],
+            "label": "Z jakého typu příjmu budete hradit\npojistné?",
+            "otherIncomeType": {
+              "isOtherIncomeTypeEmptyErrorMessage": "Toto pole je povinné.",
+              "label": "Z jakého zdroje?"
+            }
+          }
+        },
+        "politicallyExposedPerson": {
+          "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Nullam at arcu a est sollicitudin euismod. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Mauris tincidunt sem sed arcu. Integer vulputate sem a nibh rutrum consequat. Fusce aliquam vestibulum ipsum. Vestibulum fermentum tortor id mi. Nam sed tellus id magna elementum tincidunt. Nulla quis diam. Aliquam in lorem sit amet leo accumsan lacinia. Nullam faucibus mi quis velit.",
+          "header": "Politicky exponovaná osoba",
+          "hint": "Kdo je politicky exponovaná\nosoba?",
+          "ispoliticallyExposedPersonEmptyErrorMessage": "Vyberte jednu z možností.",
+          "label": "Jste politicky exponovanou osobou?",
+          "no": "Ne",
+          "title": "Kdo je politicky exponovaná\nosoba?",
+          "titleTablet": "Kdo je politicky exponovaná osoba?",
+          "warning": {
+            "header": "Označili jste, že klient je politicky exponovanou osobou podle zákona č. 253/2008 Sb., o některých opatřeních proti legalizaci výnosů z trestné činnosti a financování terorismu, ve znění pozdějších předpisů.",
+            "items": [
+              {
+                "key": 1,
+                "value": "Před vytvořením smlouvy pošlete žádost ve znění „Žádám o schválení sjednání pojištění pro PEP klienta – jméno a příjmení, datum narození /r.č.“ na adresu aml@vig.cz."
+              },
+              {
+                "key": 2,
+                "value": "Společně s touto žádostí zašlete kopii daňového přiznání nebo Potvrzení o výši příjmu od zaměstnavatele a vyplněný formulář Finanční dotazník (stačí vyplnit body 5. a 6.)."
+              },
+              {
+                "key": 3,
+                "value": "Souhlas AML officera, Potvrzení o výši příjmů a Finanční dotazník přiložte ke smlouvě. Bez těchto příloh nebude možné smlouvu akceptovat!"
+              }
+            ]
+          },
+          "yes": "Ano"
+        },
+        "title": "Právní náležitosti"
+      },
+      "modal": {
+        "medicalExamination": {
+          "body": {
+            "contains": {
+              "items": [
+                "Interní lékařská prohlídka (základní interní vyšetření dle pokynů ve formuláři)",
+                "Laboratorní vyšetření moči (bílkoviny, cukr, sediment)",
+                "Laboratorní vyšetření krve (celkový cholesterol, HDL cholesterol, ALT, AST, GGT (GMT), triglyceridy, bilirubin, kreatinin, urea, glykémie, krevní obraz a diferenciální rozpočet)",
+                "EKG a zátěžové EKG (popis včetně záznamu)",
+                "Test HIV 1, 2"
+              ],
+              "title": "Rozsah Interní lékařské prohlídky:"
+            },
+            "description": "Lékařskou prohlídku lze v rámci ČR podstoupit u kteréhokoliv smluvního zdravotního zařízení, a to bez ohledu na adresu trvalého pobytu klienta; nebo ji lze podstoupit u jiného než smluvního zdravotnického zařízení, které je schopno zabezpečit požadovaný rozsah prohlídky.",
+            "info": "Pokud nebude požadovaná interní lékařská obsahovat všechny výše uvedené informace, nelze ji akceptovat."
+          },
+          "header": "Interní lékařská prohlídka"
+        }
+      }
+    },
+    "title": "Doplňující údaje"
+  },
+  "appFooter": {
+    "loading": "Loading...",
+    "version": "Verze FE: {{fe}}, BE: {{be}}"
+  },
+  "appTitle": "Životní pojištění FLEXI",
+  "basicInfo": {
+    "description": "Abychom Vám mohli připravit nabídku na míru, budeme nejprve potřebovat několik informací.",
+    "inputs": {
+      "creditType": {
+        "empty": "Neznámý typ úvěru",
+        "items": [
+          {
+            "label": "Hypotéka",
+            "value": "MORTGAGE"
+          },
+          {
+            "label": "Spotřebitelský úvěr",
+            "value": "LOAN"
+          },
+          {
+            "label": "Kartový účet",
+            "value": "CREDIT_CARD"
+          },
+          {
+            "label": "Kontokorent",
+            "value": "OVERDRAFT"
+          },
+          {
+            "label": "Úvěr ze stavebního spoření",
+            "value": "BUILDINGS_LOAN"
+          }
+        ],
+        "label": "Typ úvěru",
+        "placeholder": "Vyberte..."
+      },
+      "employment": {
+        "empty": "Povolání nenalezeno",
+        "isProfessionalSportErrorMessage": "Pokud sportujete profesionálně, uveďte jako své povolání možnost \"Profesionální sportovec\".",
+        "label": "Jaké je Vaše povolání?",
+        "placeholder": "Začněte psát a vyberte ze seznamu..."
+      },
+      "income": {
+        "label": "Jaký je Váš čistý měsíční příjem?",
+        "placeholder": ""
+      },
+      "incomeDependency": {
+        "label": "Je někdo závislý na Vašem příjmu?",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "insureCreditFromCS": {
+        "label": "Chcete pojistit Váš úvěr?",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "interest": {
+        "label": "Jaký máte aktuální úrok?",
+        "placeholder": ""
+      },
+      "invalidityLevel": {
+        "label": "Jaký stupeň invalidity?",
+        "placeholder": "Vyberte..."
+      },
+      "isInvalid": {
+        "label": "Jsem invalidní",
+        "reasonWhyDisabled": "Invalidita nelze změnit, protože jste zvolili zaměstnání Invalidní důchodce"
+      },
+      "largerIncome": {
+        "isCheckedErrorMessage": "Bez tohoto prohlášení nelze pokračovat.",
+        "label": "Prohlašuji, že moje příjmy jsou vyšší než výdaje."
+      },
+      "maturity": {
+        "label": "Kolik let zbývá na splacení?",
+        "placeholder": ""
+      },
+      "selfEmployed": {
+        "label": "Jsem OSVČ"
+      },
+      "sport": {
+        "empty": "Sport nenalezen",
+        "label": "Jaký typ sportu?",
+        "placeholder": "Vyberte..."
+      },
+      "sportType": {
+        "empty": "Sport nenalezen",
+        "isEliteSportErrorMessage": "Pokud sportujete vrcholově, uveďte že sportujete \"Vrcholově\".",
+        "isProfessionalSportErrorMessage": "Pokud sportujete profesionálně, uveďte že sportujete \"Profesionálně\".",
+        "items": {
+          "ELITE": "Vrcholově",
+          "LEISURE": "Rekreačně",
+          "NONE": "Vůbec",
+          "PROFESSIONAL": "Profesionálně",
+          "REGISTERED": "Registrovaně"
+        },
+        "label": "Sportujete?",
+        "placeholder": "Vyberte..."
+      },
+      "unpaid": {
+        "label": "Zbývá doplatit",
+        "placeholder": ""
+      }
+    },
+    "title": "Základní údaje"
+  },
+  "buttons": {
+    "acceptChanges": "Rozumím, pokračovat",
+    "back": "Zpět",
+    "close": "Zavřít",
+    "continue": "Pokračovat",
+    "downloadOffer": "Stáhnout modelaci",
+    "editOffer": "Upravit nastavení pojištění",
+    "letsGo": "Jdeme na to",
+    "more": "Více",
+    "no": "Ne",
+    "send": "Odeslat",
+    "sendViaEmail": "Odeslat na e-mail",
+    "tryAgain": "Zkusit znovu",
+    "yes": "Ano"
+  },
+  "contactAddressNotInCZ": {
+    "info": "Abyste mohli pokračovat, změňte prosím kontaktní údaje v Nastavení.",
+    "title": "Vaše kontaktní adresa musí být v České republice"
+  },
+  "documentsAndSignature": {
+    "title": "Dokumenty a podpis"
+  },
+  "error": {
+    "ADFS_TOKEN_EXPIRE": {
+      "description": "Z bezpečnostních důvodů Vás potřebujeme znovu ověřit. Prosím vypněte a zapněte aplikaci Flexi a můžete nerušeně pracovat další hodinu.",
+      "title": "Omlouváme se za přerušení"
+    },
+    "BAD_REQUEST": {
+      "description": "Abychom mohli pokračovat, opravte následující chyby.",
+      "firstButtonText": "Zpět",
+      "title": "Něco se pokazilo"
+    },
+    "CONTACT_ADDRESS_INCOMPLETE": {
+      "description": "Abyste mohli pokračovat, doplňte prosím kontaktní údaje.",
+      "firstButtonText": "Dokončit",
+      "title": "Kontaktní adresa musí být v České republice"
+    },
+    "CONTACT_ADDRESS_OUTSIDE_CZECH": {
+      "description": " Abyste mohli pokračovat, změňte prosím kontaktní údaje.",
+      "firstButtonText": "Dokončit",
+      "title": "Kontaktní adresa musí být v České republice"
+    },
+    "TOO_OLD": {
+      "description": "Ve sjednání pojištění, prosím, pokračujte v aplikaci OPTIS.",
+      "firstButtonText": "Dokončit",
+      "title": "Neumíme pojistit klienty starší 85 let"
+    },
+    "TOO_YOUNG": {
+      "description": "Vyhledejte, prosím, v aplikaci KLIENT klienta, který chce pojištění pro dítě sjednat a začněte znovu.",
+      "firstButtonText": "Dokončit",
+      "title": "Pojištění si nemůže sjednat dítě"
+    },
+    "UNKNOWN": {
+      "description": "Zkuste obrazovku načíst po chvílu znovu. Pokud problém přetrvává, zavolejte nám na 956 772 000, provolba #1 a pak #2.",
+      "firstButtonText": "Zkusit znovu",
+      "secondButtonText": "Dokončit",
+      "title": "Něco se pokazilo"
+    }
+  },
+  "infoPage": {
+    "title": "Nejčastější dotazy"
+  },
+  "landingPage": {
+    "mobile": {
+      "faq": {
+        "items": [
+          "Pro koho je životní pojištění\nvhodné?",
+          "Jak životní pojištění pomáhá?",
+          "Průběh pojistné události\na výluky z pojištění"
+        ],
+        "title": "Nejčastější dotazy"
+      },
+      "whyFlexi": {
+        "items": [
+          "Vy i Vaše rodina budete zajištěni do doby, než společně překonáte složitou životní situaci.",
+          "Pojištění je bez výluk a přirážek \nza zaměstnání a sport pro zábavu.",
+          "Podporujeme vážná rizika, za úrazy plníme ihned."
+        ],
+        "title": "Proč si sjednat životní pojištění FLEXI?"
+      }
+    },
+    "tablet": {
+      "features": [
+        "Smlouvu můžete změnit podle Vašich potřeb <strong>kdykoliv zdarma</strong>.",
+        "<strong>Ceny jsou nezávislé</strong> na zaměstnání či rekreačním sportu.",
+        "Placení pojistky <strong>můžete přerušit</strong> až na půl roku.",
+        "V případě úrazu <strong>plníme ihned</strong>."
+      ],
+      "header": "Sjednání životního pojištění",
+      "interruption": {
+        "header": "Přerušení placení pojistného",
+        "whatIs": {
+          "body": "Při přerušení pojistného hradíte pouze základní pojištění a\n poplatek za správu (celkem 60,- Kč). V případě pojistné události\n v době přerušení Vám vyplatíme pojistné plnění pouze v rámci\n základního pojištění.",
+          "header": "Co je přerušení placení pojistného?"
+        },
+        "when": {
+          "body": "Pokud Vaše smlouva trvá alespoň 2 roky a zároveň ke dni doručení\n žádosti nebudeme evidovat dluh na pojistném. Smlouvu lze uspat\n nejvýše na 6 měsíců. Požádat lze jednou za 5 let.",
+          "header": "Kdy mohu o přerušení požádat?"
+        }
+      },
+      "motivation": "<strong>Vyhněte se finančním ztrátám</strong> a stresu z nečekaných životních situací. Díky <strong>novému životnímu pojištění FLEXI </strong> zabezpečíte sebe i své blízké.",
+      "whatIsAhead": "Co Vás čeká?",
+      "workflow": {
+        "steps": [
+          "Společně vyplníme\nVaše osobní údaje.",
+          "Pojištění nastavíme\npodle Vašich potřeb.",
+          "Doplníme potřebné\núdaje o zdravotním\nstavu.",
+          "Podepíšeme smlouvu\na jste pojištěni."
+        ]
+      }
+    }
+  },
+  "login": "Přihlášení",
+  "medicalQuestionnaireResults": {
+    "consent": {
+      "close": "Méně",
+      "description": [
+        "Souhlasíte s využitím Vámi poskytnutých údajů o zdravotním stavu a genetických údajů v rámci automatizovaného individuálního rozhodování pro účely modelace, návrhu a uzavření pojistné smlouvy a posouzení přijatelnosti do pojištění.",
+        "Během tohoto procesu posoudí Vaše údaje modelační program, který vyhodnotí zejména rizikovost Vašeho zdravotního stavu a určí výši pojistného, která Vám bude nabídnuta v návrhu pojistné smlouvy. Lze tedy očekávat, že výše pojistného pro osoby s vynikajícím zdravotním stavem se bude lišit od osoby trpící zdravotními obtížemi.",
+        "Tento souhlas udělujete na dobu trvání procesu uzavírání smlouvy, v případě jejího uzavření na dobu trvání smluvního vztahu. Tento souhlas je dobrovolný, avšak v případě jeho neudělení lze očekávat prodloužení doby posuzování a schválení pojistné smlouvy ze strany pojistitele. Tento souhlas můžete kdykoli odvolat. Odvoláním souhlasu není dotčena zákonnost provedení automatizovaného individuálního rozhodování do okamžiku odvolání. Máte právo požadovat přezkum člověkem, vyjádřit svůj názor a napadnout rozhodnutí způsobem uvedeným v dokumentu Informace o zpracování osobních údajů. "
+      ],
+      "open": "Více",
+      "title": "Souhlas s navýšením ceny za zdravotní stav",
+      "warning": "Po podpisu smlouvy <strong>dojde k ručnímu vyhodnocení zdravotního stavu pracovníkem pojišťovny</strong>. Výsledky se zpravidla neliší a pojišťovna tak zašle klientovi dodatek. Ten musí být podepsán a fyzicky doručen do pojišťovny, ta jinak od smlouvy odstoupí."
+    },
+    "description": "Na základě Vašich odpovědí musíme provést následující změny v nastavení pojištění.",
+    "managementFeeRowLabel": "Poplatek za správu",
+    "managementFeeRowNone": "Bez poplatku \uD83D\uDC4D",
+    "newOfferCostLabel": "Nová celková cena",
+    "nonInsurableRisksTitle": "Rizika, která nelze pojistit",
+    "previousOfferCostLabel": "Původní cena pojištění",
+    "surchargesTitle": "Navýšení ceny za zdravotní stav",
+    "title": "Vyhodnocení zdravotních dotazů",
+    "totalCostTitle": "Celková cena pojištění"
+  },
+  "navigationBackward": "Zpět",
+  "navigationForward": "Pokračovat",
+  "offer": {
+    "calculation": {
+      "cta": "Spočítat celkovou cenu",
+      "firstValueLabel": "Cena za vybraná pojištění",
+      "firstValuePostFix": "měsíčně",
+      "label": "Celková cena pojištění",
+      "labelKP": "Poplatek za správu",
+      "lastValueLabel": "Celková cena",
+      "noKPValue": "Bez poplatku",
+      "saleLabel": "Sleva za komplexní rozsah"
+    },
+    "help": {
+      "KL": {
+        "body": {
+          "example": {
+            "description": "Příklad: Denní odškodné 300 Kč/den",
+            "table": {
+              "columns": [
+                {
+                  "header": true,
+                  "id": "1",
+                  "label": "Úraz - diagnóza dle oceňovacích tabulek",
+                  "labelize": false,
+                  "width": "60%"
+                },
+                {
+                  "header": true,
+                  "id": "2",
+                  "label": "Počet dnů plnění",
+                  "labelize": false,
+                  "width": "20%"
+                },
+                {
+                  "header": true,
+                  "id": "3",
+                  "label": "Pojistné plnění",
+                  "labelize": false,
+                  "width": "20%"
+                }
+              ],
+              "items": [
+                {
+                  "dayCount": "112 dnů",
+                  "diagnosis": "Otřes mozku těžkého stupně s hospitalizací",
+                  "payout": "33 600 Kč"
+                },
+                {
+                  "dayCount": "84 dnů",
+                  "diagnosis": "Vymknutí kosti pažní (ramene) léčené operativně",
+                  "payout": "25 200 Kč"
+                },
+                {
+                  "dayCount": "133 dnů",
+                  "diagnosis": "Popálení 2. stupně nad 30 % povrchu těla\n133 dnů\n39 900 Kč",
+                  "payout": "39 900 Kč"
+                },
+                {
+                  "dayCount": "266 dnů",
+                  "diagnosis": "Roztříštěné zlomeniny těl obratlů krčních, hrudních nebo bederních bez komplikací",
+                  "payout": "79 800 Kč"
+                },
+                {
+                  "dayCount": "42 dnů",
+                  "diagnosis": "Zlomenina 1 článku 1 prstu ruky úplná s posunutím",
+                  "payout": "12 600 Kč"
+                },
+                {
+                  "dayCount": "98 dnů",
+                  "diagnosis": "Zlomenina vnitřního kotníku, otevřená nebo léčená operativně",
+                  "payout": "29 400 Kč"
+                }
+              ]
+            },
+            "title": "Příklad maximálního plnění z pojištění úrazu"
+          },
+          "reason": {
+            "body": "Můžete ho využít na úhradu nákladů na léčbu následků úrazu.",
+            "title": "Proč pojištění sjednat"
+          }
+        },
+        "title": "Denní odškodné – úraz"
+      },
+      "KPTP": {
+        "body": {
+          "progression": {
+            "body": "Progrese znamená, že čím rozsáhlejší je tělesné poškození, tím vyšší je pojistné plnění.",
+            "graph": {
+              "alt": "Graf a tabulka progresivního plnění"
+            },
+            "title": "Progrese"
+          },
+          "reason": {
+            "body": "V případě, že úraz zanechá trvalé následky, pojistné plnění pomůže klientovi s úhradou finančních nákladů spojených se změnou životního stylu (koupě automobilu, přebudování bytu na bezbariérový atd.).",
+            "title": "Proč pojištění sjednat"
+          }
+        },
+        "title": "Trvalé následky úrazu"
+      },
+      "KVVO": {
+        "body": {
+          "basic": {
+            "items": [
+              "Hodgkinův lymfom a Non Hodgkinův lymfom",
+              "Leukemie",
+              "Nitrolební nádory",
+              "Rakovina vykazující rané maligní změny",
+              "Rakovina",
+              "Kardiochirurgické operace na podkladě vrozené srdeční vady",
+              "Infarkt myokardu",
+              "Cévní mozková příhoda",
+              "Protržení výdutě (ruptura aneuryzmatu) mozkové tepny",
+              "Totální selhání ledvin"
+            ],
+            "title": "Základní varianta - 10 diagnóz"
+          },
+          "complete": {
+            "items": [
+              "Diagnózy v základní variantě",
+              "Chronická lymfatická leukemie",
+              "Akutní koronární syndrom",
+              "Primární kardiomyopatie",
+              "Náhrada jedné nebo více srdečních chlopní umělou chlopní",
+              "Operace srdeční chlopně",
+              "Operace věnčitých (koronárních) tepen",
+              "Operace aorty",
+              "Získané chronické srdeční selháni",
+              "Primární plicní arteriální hypertenze",
+              "Embolie plicní tepny vyžadující chirurgickou embolektomii",
+              "Operace plicní tepny",
+              "Revmatická horečka",
+              "Roztroušená skleróza",
+              "Epilepsie typu Grand Mal",
+              "Významné poškození mozku způsobené úrazem",
+              "Kóma",
+              "Příčná míšní léze (ochrnutí)",
+              "Amyotrofická laterální skleróza",
+              "Huntingtonova nemoc",
+              "Demence včetně Alzheimerovy choroby",
+              "Parkinsonova choroba",
+              "Klíšťová meningoencefalitida (KE)",
+              "Encefalitida (meningoencefalitida)",
+              "Meningitida (meningoencefalitida)",
+              "Virový zánět jater (hepatitida)",
+              "HIV",
+              "Lymeská nemoc (borrelióza) – pozdní stadium",
+              "Fulminantní meningokokové onemocnění",
+              "Tetanus",
+              "Mozková obrna (poliomyelitida)",
+              "Creutzfeldtova-Jakobova nemoc",
+              "Juvenilní idiopatická artritida",
+              "Systémový lupus erythematodes",
+              "Difuzní forma Systémové sklerodermie",
+              "Diabetes mellitus (cukrovka) I. typu",
+              "Operace při komplikacích Crohnovy nemoci (Morbus Crohn)",
+              "Stavy vedoucí k syndromu krátkého střeva s nutností totální parenterální umělé výživy",
+              "Selhání jater",
+              "Chronická glomerulonefritida",
+              "Idiopatická plicní fibróza",
+              "Onemocnění plic způsobující dechovou nedostatečnost",
+              "Aplastická anémie",
+              "Transplantace orgánů a zařazení do oficiálního seznamu čekatelů na transplantaci životně důležitých orgánů",
+              "Zelený zákal (glaukom)",
+              "Klinicky potvrzená slepota",
+              "Klinicky potvrzená hluchota",
+              "Ztráta řeči",
+              "Těžké perzistující astma bronchiale",
+              "Těžké popáleniny",
+              "Amputace končetiny",
+              "Snížená soběstačnost (nemusí být podmíněna konkrétní diagnózou)",
+              "Poškození centrálního nervového systému následkem očkování",
+              "Narození vícerčat",
+              {
+                "items": [
+                  "DMD/BMD (genetické nervosvalové onemocnění)",
+                  "Downův, Edwardsův a Patauův syndrom",
+                  "Spina bifida (rozštěp páteře)",
+                  "Mikrocefalie",
+                  "MCM syndrom",
+                  "Bulósní epidermolýza",
+                  "Fallotova tetralogie",
+                  "osteogenesis imperfekta"
+                ],
+                "title": "Vrozené vady živě narozených dětí:"
+              }
+            ],
+            "title": "Kompletní varianta - 64 diagnóz"
+          },
+          "reason": {
+            "body": "Nejrychleji dostupné finanční prostředky, které může klient použít především na stabilizaci příjmu, na úhradu zdravotních pomůcek, doplňkové léčby, rehabilitací apod. Požádat o pojistné plnění je možné již 15 dnů od stanovení diagnózy.",
+            "title": "Proč pojištění sjednat"
+          }
+        },
+        "title": "Vážná onemocnění"
+      },
+      "KVVON": {
+        "female": {
+          "body": {
+            "commonReasons": {
+              "items": [
+                {
+                  "title": "Rakovina dělohy"
+                },
+                {
+                  "title": "Rakovina děložního čípku"
+                },
+                {
+                  "title": "Rakovina pochvy"
+                },
+                {
+                  "title": "Rakovina vaječníků a vejcovodů"
+                },
+                {
+                  "title": "Rakovina vulvy"
+                },
+                {
+                  "title": "Rakovina prsu"
+                },
+                {
+                  "title": "Rakovina výše uvedených diagnóz vykazující rané maligní změny"
+                },
+                {
+                  "title": "Narození vícerčat"
+                },
+                {
+                  "title": "Úmrtí rodičky při porodu"
+                },
+                {
+                  "title": "Třetí asistovaná reprodukce IVF"
+                },
+                {
+                  "items": [
+                    "DMD/BMD (genetické nervosvalové onemocnění)",
+                    "Downův, Edwardsův a Patauův syndrom",
+                    "Spina bifida (rozštěp páteře)",
+                    "Mikrocefalie",
+                    "MCM syndrom",
+                    "Bulósní epidermolýza",
+                    "Fallotova tetralogie",
+                    "Osteogenesis imperfecta"
+                  ],
+                  "title": "Vrozené vady živě narozených dětí"
+                }
+              ],
+              "title": "Nejčastější příčiny aneb kdy plníme"
+            },
+            "reason": {
+              "body": "Pojistné plnění pokryje výpadek příjmu při specifických onemocněních žen. Přináší finanční kompenzaci při některých potížích spojených s porodem a narozením dítěte.",
+              "title": "Proč pojištění sjednat"
+            }
+          },
+          "title": "Vážná onemocnění PRO NI"
+        },
+        "male": {
+          "body": {
+            "commonReasons": {
+              "items": [
+                {
+                  "title": "Rakovina penisu"
+                },
+                {
+                  "title": "Rakovina prostaty"
+                },
+                {
+                  "title": "Rakovina varlat, nadvarlat a šourku"
+                },
+                {
+                  "title": "Rakovina prsu"
+                },
+                {
+                  "title": "Rakovina výše uvedených diagnóz vykazující rané maligní změny"
+                },
+                {
+                  "title": "Narození vícerčat"
+                },
+                {
+                  "title": "Úmrtí rodičky při porodu"
+                },
+                {
+                  "items": [
+                    "DMD/BMD (genetické nervosvalové onemocnění)",
+                    "Downův, Edwardsův a Patauův syndrom",
+                    "Spina bifida (rozštěp páteře)",
+                    "Mikrocefalie",
+                    "MCM syndrom",
+                    "Bulósní epidermolýza",
+                    "Fallotova tetralogie",
+                    "Osteogenesis imperfecta"
+                  ],
+                  "title": "Vrozené vady živě narozených dětí"
+                }
+              ],
+              "title": "Nejčastější příčiny aneb kdy plníme"
+            },
+            "reason": {
+              "body": "Pojistné plnění pokryje výpadek příjmu při specifických onemocněních mužů.",
+              "title": "Proč pojištění sjednat"
+            }
+          },
+          "title": "Vážná onemocnění PRO NĚJ"
+        }
+      },
+      "credit": {
+        "body": {
+          "complete": {
+            "items": [
+              "Diagnózy v základní variantě",
+              "Chronická lymfatická leukemie",
+              "Akutní koronární syndrom",
+              "Primární kardiomyopatie",
+              "Náhrada jedné nebo více srdečních chlopní umělou chlopní",
+              "Operace srdeční chlopně",
+              "Operace věnčitých (koronárních) tepen",
+              "Operace aorty",
+              "Získané chronické srdeční selhání",
+              "Primární plicní arteriální hypertenze",
+              "Embolie plicní tepny vyžadující chirurgickou embolektomii",
+              "Operace plicní tepny",
+              "Revmatická horečka",
+              "Roztroušená skleróza",
+              "Epilepsie typu Grand Mal",
+              "Významné poškození mozku způsobené úrazem",
+              "Kóma",
+              "Příčná míšní léze (ochrnutí)",
+              "Amyotrofická laterální skleróza",
+              "Huntingtonova nemoc",
+              "Demence včetně Alzheimerovy choroby",
+              "Parkinsonova choroba",
+              "Klíšťová meningoencefalitida (KE)",
+              "Encefalitida (meningoencefalitida)",
+              "Meningitida (meningoencefalitida)",
+              "Virový zánět jater (hepatitida)",
+              "HIV",
+              "Lymeská nemoc (borrelióza) – pozdní stadium",
+              "Fulminantní meningokokové onemocnění",
+              "Tetanus",
+              "Mozková obrna (poliomyelitida)",
+              "Creutzfeldtova-Jakobova nemoc",
+              "Juvenilní idiopatická artritida",
+              "Systémový lupus erythematodes",
+              "Difuzní forma Systémové sklerodermie",
+              "Diabetes mellitus (cukrovka) I. typu",
+              "Operace při komplikacích Crohnovy nemoci (Morbus Crohn)",
+              "Stavy vedoucí k syndromu krátkého střeva s nutností totální parenterální umělé výživy",
+              "Selhání jater",
+              "Chronická glomerulonefritida",
+              "Idiopatická plicní fibróza",
+              "Onemocnění plic způsobující dechovou nedostatečnost",
+              "Aplastická anémie",
+              "Transplantace orgánů a zařazení do oficiálního seznamu čekatelů na transplantaci životně důležitých orgánů",
+              "Zelený zákal (glaukom)",
+              "Klinicky potvrzená slepota",
+              "Klinicky potvrzená hluchota",
+              "Ztráta řeči",
+              "Těžké perzistující astma bronchiale",
+              "Těžké popáleniny",
+              "Amputace končetiny",
+              "Snížená soběstačnost (nemusí být podmíněna konkrétní diagnózou)",
+              "Poškození centrálního nervového systému následkem očkování",
+              "Narození vícerčat",
+              {
+                "items": [
+                  "DMD/BMD (genetické nervosvalové onemocnění)",
+                  "Downův, Edwardsův a Patauův syndrom",
+                  "Spina bifida (rozštěp páteře)",
+                  "Mikrocefalie",
+                  "MCM syndrom",
+                  "Bulósní epidermolýza",
+                  "Fallotova tetralogie",
+                  "osteogenesis imperfekta"
+                ],
+                "title": "Vrozené vady živě narozených dětí:"
+              }
+            ],
+            "title": "Kompletní varianta - 64 diagnóz"
+          },
+          "reason": {
+            "body": "Pokryje nesplacený zůstatek úvěru či hypotéky.",
+            "title": "Proč pojištění sjednat"
+          }
+        },
+        "title": "Pojištění úvěru - vážná onemocnění"
+      }
+    },
+    "inputs": {
+      "age": {
+        "label": "do věku",
+        "placeholder": ""
+      },
+      "dateFrom": {
+        "label": "Pojištění chci sjednat od",
+        "placeholder": ""
+      }
+    },
+    "modelationDownload": {
+      "error": {
+        "body": "Prosím zkuste to znovu. Pokud problém přetrvává, nahlašte chybu na Helpdesk. ",
+        "title": "Soubor se nepodařilo stáhnout."
+      }
+    },
+    "sendViaEmail": {
+      "modal": {
+        "failure": {
+          "description": "Prosím zkuste to znovu. Pokud problém přetrvává, nahlašte chybu na Helpdesk. ",
+          "heading": "Dokument se nepodařilo odeslat"
+        },
+
+        "info": {
+          "description": "Modelace pojištění v PDF bude odeslána na kontaktní e-mail {{email}}",
+          "heading": "Odeslat modelaci na e-mail?"
+        },
+        "success": {
+          "description": "Nastavení pojištění jsme Vám odeslali na e-mail {{email}}",
+          "heading": "Dokument byl v pořádku odeslán"
+        }
+      }
+    },
+    "situations": {
+      "close": "Sbalit nastavení",
+      "credit": {
+        "title": "Kvůli nemoci nebo úrazu nemohu splácet úvěr"
+      },
+      "defaultRiskTitle": "Pojistná částka",
+      "died": {
+        "title": "Zemřu a potřebuji zajistit své blízké"
+      },
+      "loadingRecommendation": "Načítám doporučení",
+      "long": {
+        "title": "Vážně se zraním nebo dlouhodobě onemocním"
+      },
+      "monthly": "měsíčně",
+      "open": "Rozbalit nastavení",
+      "recommendation": "Doporučeno",
+      "short": {
+        "KSD": {
+          "subtitle1": "Doplňkové pojištění smrti",
+          "subtitle2": "Smrt následkem úrazu"
+        },
+        "title": "Úraz nebo nemoc mě na pár měsíců vyřadí z provozu"
+      }
+    },
+    "summaryTitleDev": "V nastavení nabídky jsou následující chyby",
+    "summaryTitleProd": "V nastavení nabídky je chyba, prosím nabídku projděte a upravte",
+    "title": "Nastavení životního pojištění"
+  },
+  "questionnaire": {
+    "headings": {
+      "confirmation": "Potvrzení",
+      "healthInfo": "Údaje o Vašem zdraví"
+    },
+    "inputs": {
+      "bmi": {
+        "error": "Zkontrolujte zadanou výšku a váhu."
+      },
+      "confirmation": {
+        "caption": [
+          "Pojišťovna bude s Vaším souhlasem zpracovávat informace týkající se Vašeho tělesného a duševního zdraví, včetně údajů o poskytnutí zdravotních služeb vypovídajících o Vašem zdravotním stavu (dále jen „údaje o zdravotním stavu“), jakož i genetické údaje, a to pro účely modelace, nabídky a uzavření pojistné smlouvy, posouzení přijatelnosti do pojištění a zajištění \na soupojištění. Pro tyto účely bude pojišťovna zpracovávat údaje, které jí poskytnete v souvislosti s tímto formulářem. Pro účel posouzení přijatelnosti do pojištění bude zpracovávat i údaje, které od Vás získala v souvislosti s jinými uzavřenými pojistnými smlouvami.",
+          "Tento souhlas udělujete na dobu trvání procesu uzavírání smlouvy a na dobu trvání smluvního vztahu. Tento souhlas se zpracováním údajů o zdravotním stavu je dobrovolný, avšak je podmínkou uzavření pojistné smlouvy, resp. přistoupení k pojistné smlouvě. Tento souhlas můžete kdykoli odvolat. Odvoláním souhlasu není dotčena zákonnost zpracování údajů o zdravotním stavu a genetických údajů do okamžiku odvolání. Máte také právo kdykoli požadovat přístup ke svým osobním údajům.",
+          "Údaje o vašem zdravotním stavu a genetické údaje může pojišťovna předávat za účelem zajištění zajistitelům, kterými jsou společnosti Swiss Re Europa S.A. (Německo), VIG RE zajišťovna, a.s. (Česká republika), VIENNA INSURANCE GROUP AG Wiener Versicherung Gruppe (Rakousko) a případně další společnosti uvedené na webové stránce www.koop.cz v sekci „O pojišťovně Kooperativa“."
+        ],
+        "collapseLabel": "Sbalit celé znění",
+        "expandLabel": "Rozbalit celé znění",
+        "isCheckedErrorMessage": "Bez udělení souhlasu nelze pokračovat.",
+        "label": "Souhlasím se zpracováním údajů o zdravotním stavu a genetických údajů."
+      },
+      "diagnosedWithSeriousDisease": {
+        "caption": [
+          "Rakovinu (nádory, lymfomy, leukemie a jiné)",
+          "Onemocnění nebo vrozenou vadu srdce (například infarkt, bolest na hrudi, bušení srdce, vrozená srdeční vada, operace srdce nebo jiné)",
+          "Cukrovka nebo cukr v moči",
+          "Cévní mozková příhoda, epilepsie, Alzheimerova nemoc, roztroušená skleróza nebo jiné neurologické poruchy",
+          "Úzkost, deprese, autismus, Downův syndrom nebo jiné duševní onemocnění",
+          "Nemoci krve (např. anémie, porucha srážlivosti krve nebo hemofilie)",
+          "Pozitivní test na hepatitidu B, hepatitidu C nebo HIV"
+        ],
+        "label": "Jste nebo jste byl/a vyšetřován/a, sledován/a nebo léčen/a lékařem pro:",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "disabled": {
+        "caption": [
+          "Byl/a jste nebo jste držitelem průkazu zdravotně postiženého",
+          "Měla/a jste nebo máte změněnou pracovní schopnost?"
+        ],
+        "label": "Byl/a nebo jste v současné době uznán/a invalidním 1., 2., 3. stupně a/nebo Vám byla uznána snížená soběstačnost?",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "frequentDrinking": {
+        "label": "Pijete nebo jste pil/a alkohol v množství větším než 1 l piva, 0,6 l vína nebo 0,08 l lihovin častěji než 4x týdně?",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "height": {
+        "label": "Výška",
+        "placeholder": ""
+      },
+      "injury": {
+        "caption": [
+          "Např. zlomenina, podvrtnutí, vykloubení, poranění vazů a šlach, popálení, otřes mozku apod."
+        ],
+        "label": "Utrpěl/a jste v posledních 7 letech úraz?",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "permanentConsequences": {
+        "caption": [
+          "Např. poškození kloubů, omezení hybnosti, ochrnutí, ztráta končetin nebo orgánu, pakloub, ztráta zraku nebo sluchu apod."
+        ],
+        "label": "Utrpěl/a jste v minulosti úraz, který zanechal trvalé následky?",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "smokingLastTwoYears": {
+        "caption": [
+          "Kouřením rozumíme užívání tabáku nebo elektronických cigaret."
+        ],
+        "label": "Kouříte nebo jste kouřil/a v posledních 2 letech?",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "sufferingFromHealthIssues": {
+        "caption": [
+          "Trpíte v současné době obtížemi pro které máte v úmyslu vyhledat lékaře?",
+          "Probíhá u vás vyšetřování nebo testy nebo čekáte na výsledky provedených vyšetření?",
+          "Čekáte na zahájení jakékoli formy léčby nebo operaci?",
+          "Byl/a jste v posledních 7 letech operován/a nebo hospitalizován/a v nemocnici?",
+          "Pobýval/a jste v posledních 7 letech v lázních či léčebně na doporučení lékaře?"
+        ],
+        "label": "Jste v současné době ve stavu nemocných nebo v pracovní neschopnosti?",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "usingDrugs": {
+        "label": "Užíváte nebo jste užíval/a drogy, návykové látky?",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "wasHospitalisedOrExamined": {
+        "caption": {
+          "F": [
+            "Zvýšený krevní tlak nebo cholesterol",
+            "Onemocnění dýchací soustavy (např. astma, bronchitida, chronická obstrukční plicní nemoc, plicní fibróza nebo jiné)",
+            "Vrozené vady nebo onemocnění trávící soustavy (např. Crohnova choroba nebo ulcerózní kolitida nebo jakékoli onemocnění nebo porucha jícnu, žaludku, jater, slinivky břišní nebo střev)",
+            "Onemocnění nebo vrozené vady vylučovací soustavy (onemocnění nebo vrozené vady ledvin, močových cest, močového měchýře, močovodu)",
+            "Bolesti zad nebo šíje, onemocnění páteře, Bechtěrevovu nemoc (ankylozující spondylitidu), dnu, artritidu, artrózu nebo jakoukoli poruchu kloubů nebo pohybového aparátu (včetně vrozených vad)",
+            "Nález na mamografu, bulka v prsu, pozitivní nález ve stěru z děložního čípku nebo gynekologické onemocnění",
+            "Infekční nemoci, hepatitidu typu A (žloutenku), mononukleózu, boreliózu (lymeskou nemoc), encefalitidu, meningitidu nebo jiné infekční nebo zánětlivé onemocnění",
+            "Onemocnění štítné žlázy",
+            "Onemocnění kůže",
+            "Onemocnění očí a/nebo uší (krátkozrakost nebo dalekozrakost víc jak 10 dioptrií nebo jiné onemocnění/vady zraku nebo sluchu jako například snížená zraková ostrost, onemocnění sítnice, zákal, nedoslýchavost, hluchota apod)?"
+          ],
+          "M": [
+            "Zvýšený krevní tlak nebo cholesterol",
+            "Onemocnění dýchací soustavy (např. astma, bronchitida, chronická obstrukční plicní nemoc, plicní fibróza nebo jiné)",
+            "Vrozené vady nebo onemocnění trávící soustavy (např. Crohnova choroba nebo ulcerózní kolitida nebo jakékoli onemocnění nebo porucha jícnu, žaludku, jater, slinivky břišní nebo střev)",
+            "Onemocnění nebo vrozené vady vylučovací soustavy (onemocnění nebo vrozené vady ledvin, močových cest, močového měchýře, močovodu)",
+            "Bolesti zad nebo šíje, onemocnění páteře, Bechtěrevovu nemoc (ankylozující spondylitidu), dnu, artritidu, artrózu nebo jakoukoli poruchu kloubů nebo pohybového aparátu (včetně vrozených vad)",
+            "Onemocnění prostaty",
+            "Infekční nemoci, hepatitidu typu A (žloutenku), mononukleózu, boreliózu (lymeskou nemoc), encefalitidu, meningitidu nebo jiné infekční nebo zánětlivé onemocnění",
+            "Onemocnění štítné žlázy",
+            "Onemocnění kůže",
+            "Onemocnění očí a/nebo uší (krátkozrakost nebo dalekozrakost víc jak 10 dioptrií nebo jiné onemocnění/vady zraku nebo sluchu jako například snížená zraková ostrost, onemocnění sítnice, zákal, nedoslýchavost, hluchota apod)?"
+          ]
+        },
+        "label": "Jste nebo jste byl/a v posledních 7 letech vyšetřován/a, sledován/a nebo léčen/a lékařem pro níže uvedené zdravotní obtíže?",
+        "no": "Ne",
+        "yes": "Ano"
+      },
+      "weight": {
+        "label": "Váha",
+        "placeholder": ""
+      }
+    },
+    "questionnaireNotRequired": {
+      "description": "Žádné informace o Vašem zdravotním stavu teď nepotřebujeme."
+    },
+    "title": "Zdravotní dotazy"
+  },
+  "signPage": {
+    "loading": {
+      "description": "Kontrolujeme, jestli podpis proběhl v pořádku..."
+    },
+    "notSigned": {
+      "description": "Zkuste proces ověření znovu. Pokud se problém opakuje, vyberte jinou variantu podpisu <br/>nebo kontaktujte podporu aplikace.",
+      "firstButtonText": "Vybrat jinou variantu podpisu",
+      "secondButtonText": "Zrušit",
+      "title": "Ověření podpisu dokumentů se nezdařilo"
+    },
+    "payment": {
+      "accountNumber": "Číslo účtu pro platbu",
+      "amount": "Částka k zaplacení",
+      "constantSymbol": "Konstatní symbol",
+      "variableSymbol": "Variabilní symbol (číslo smlouvy)"
+    },
+    "signed": {
+      "description": "Hotovo! Stačí uhradit první pojistné a nastavit trvalou platbu.",
+      "firstButtonText": "Dokončit",
+      "title": "Hotovo"
+    },
+    "title": "Hotovo",
+    "toBeSigned": {
+      "description": "Děkujeme za důvěru v naše pojištění. Dokumenty k podpisu Vám posíláme do George.",
+      "firstButtonText": "Dokončit",
+      "title": "Téměř hotovo, už zbývá jen Váš podpis"
+    }
+  },
+  "stepper": {
+    "title": "Krok {{currentStep}} z {{totalSteps}} - {{currentStepLabel}}"
+  },
+  "user": "Přihlášení uživatele",
+  "validationTexts": {
+    "boolean": {
+      "atLeastOneTruthy": "Jedna z otázek musí být zodpovězena kladně.",
+      "atLeastOneTruthyButLast": "Jedna odpověď na podotázky (kromě poslední) musí být Ano.",
+      "atLeastOneTruthySubquestion": "Jedna z podotázek musí být zodpovězena kladně.",
+      "required": "Vyberte jednu z možností.",
+      "requiredAtLeastOne": "Vyberte alespoň jednu z možností.",
+      "requiredFalse": "Tato odpověď musí být záporná (v návaznosti na některou jinou odpověď).",
+      "requiredTrue": "Tato odpověď musí být kladná (v návaznosti na některou jinou odpověď)."
+    },
+    "number": {
+      "max100": "Toto pole může mít maximálně 100 znaků.",
+      "max50": "Toto pole může mít maximálně 50 znaků.",
+      "nonEmpty": "Toto pole nesmí být prázdné.",
+      "required": "Toto pole je povinné.",
+      "tooLong": "Tento text je moc dlouhý."
+    },
+    "professionalSportException": {
+      "warning": "Pro osoby, které v době vzniku pojistné události provozují sportovní činnost na vrcholové nebo profesionální úrovni, nevznikne z pojištění pracovní neschopnosti nárok na pojistné plnění v případě jakýchkoliv úrazů a v případě onemocnění pohybového aparátu (svalové a kosterní soustavy a pojivové tkáně), včetně jejich příčin, komplikací a následků, a to bez ohledu na to, zda pojistná událost vznikla při výkonu sportovní činnosti, nebo v běžném životě."
+    },
+    "string": {
+      "max100": "Toto pole může mít maximálně 100 znaků.",
+      "max50": "Toto pole může mít maximálně 50 znaků.",
+      "nonEmpty": "Toto pole nesmí být prázdné.",
+      "required": "Toto pole je povinné.",
+      "tooLong": "Tento text je moc dlouhý."
+    }
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[59816],{59816:function(e,a,t){t.r(a);var i={lastWeek:"'mu dheireadh' eeee 'aig' p",yesterday:"'an-d\xe8 aig' p",today:"'an-diugh aig' p",tomorrow:"'a-m\xe0ireach aig' p",nextWeek:"eeee 'aig' p",other:"P"};a.default=function(e,a,t,r){return i[e]}}}]);

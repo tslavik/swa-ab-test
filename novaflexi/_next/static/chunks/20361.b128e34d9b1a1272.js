@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[20361],{20361:function(e,t,o){o.r(t);var r={lastWeek:"'verlede' eeee 'om' p",yesterday:"'gister om' p",today:"'vandag om' p",tomorrow:"'m\xf4re om' p",nextWeek:"eeee 'om' p",other:"P"};t.default=function(e,t,o,a){return r[e]}}}]);

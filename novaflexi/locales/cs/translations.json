@@ -1,0 +1,151 @@
+{
+  "SHORT_TERM": {
+    "KPN": {
+      "title": "Pracovní neschopnost - nemoc i úraz",
+      "titleShort": "Pracovní neschopnost",
+      "description": "Dorovná Vám rodinný rozpočet v době pracovní neschopnosti, kdy jsou příjmy výrazně nižší.",
+      "risks": {
+        "KPN15": "plnění od 15. dne",
+        "KPN29": "plnění od 29. dne, následně od 29. dne",
+        "KPNz29": "plnění od 29. dne, od 1. dne"
+      }
+    },
+    "KL": {
+      "title": "Denní odškodné - úraz",
+      "titleShort": "Úraz",
+      "description": "Můžete ho využít na úhradu nákladů na léčbu následků úrazu.",
+      "risks": {
+        "KL": "Plnění od 1. dne - pojistná částka"
+      }
+    },
+    "KHU": {
+      "title": "Hospitalizace - nemoc i úraz",
+      "titleShort": "Hospitalizace",
+      "description": "Nahradí Vám ušlý příjem při pobytu v nemocnici nebo slouží k úhradě nákladů za nadstandardní péči.",
+      "risks": {
+        "KHU": "Pojistná částka"
+      }
+    },
+    "KOD": {
+      "title": "Ošetřování - nemoc i úraz",
+      "titleShort": "Ošetřování",
+      "description": "Nahradí příjem člena Vaší rodiny, který Vás bude ošetřovat ve vážné životní situaci.",
+      "risks": {
+        "KOD": "Pojistná částka"
+      }
+    },
+    "KMAJAK": {
+      "title": "Lékař na telefonu – MAJÁK",
+      "titleShort": "Lékař na telefonu",
+      "description": "Nonstop asistenční služby, které pomohou Vám i Vašim blízkým především v pokročilejším věku.",
+      "risks": {
+        "KMAJAK": null
+      }
+    }
+  },
+  "SERIOUS": {
+    "KINV": {
+      "title": "Invalidita nebo snížená soběstačnost",
+      "titleShort": "Invalidita",
+      "description": "Pomůže Vám pokrýt náklady na změnu životního stylu a nahradí výpadek dlouhodobého příjmu.",
+      "risks": {
+        "KINV1": "I. stupně (konstantní)",
+        "KINV2": "II. stupně (konstantní)",
+        "KINV3": "III. stupně / snížená soběstačnost (konstantní)",
+        "KINV1D": "I. stupně (lineárně klesající)",
+        "KINV2D": "II. stupně (lineárně klesající)",
+        "KINV3D": "III. stupně  / snížená soběstačnost (lineárně klesající)"
+      }
+    },
+    "KVVO": {
+      "title": "Vážná onemocnění",
+      "titleShort": "Vážná nemoc",
+      "description": "Získáte finanční prostředky na úhradu zdravotních pomůcek, léků, pečovatelky \na jiných léčebných výloh.",
+      "risks": {
+        "KVVO": "konstantní",
+        "KVVOD": "lineárně klesající",
+        "KVVON": "lineárně klesající"
+      }
+    },
+    "KPTP": {
+      "title": "Trvalé následky úrazu - s progresí",
+      "titleShort": "Trvalé následky",
+      "description": "V případě úrazu s trvalými následky Vám pomůže pokrýt náklady spojené se změnou životního stylu.",
+      "risks": {
+        "KPTP5": "s plněním od 0,5 %",
+        "KPTP10": "s plněním od 10 %"
+      }
+    },
+    "KC": {
+      "title": "BONUS - Cesta ke zdraví",
+      "titleShort": "Cesta ke zdraví",
+      "description": "Pomůže pokrýt výdaje na zdravotní pomůcky, lázně, ošetřovatelskou péči, ale například i na úpravu řízení vozidla nebo úpravy bydlení.",
+      "alertText": "BONUS - Cesta za zdraví získáte zdarma ke sjednání invalidity, vážných onemocnění nebo trvalých následků úrazu.",
+      "risks": {
+        "KC": null
+      }
+    }
+  },
+  "DEATH": {
+    "KS": {
+      "title": "Základní pojištění smrti",
+      "titleShort": "Základní pojištění smrti",
+      "description": "Zajistí Vaše blízké při překonávání složitého období v případě Vašeho úmrtí a pomůže pokrýt náklady na poslední rozloučení.",
+      "risks": {
+        "KS": null
+      }
+    },
+    "KSD": {
+      "title": "Doplňkové pojištění smrti",
+      "titleShort": "Doplňkové pojištění smrti",
+      "description": "Zajistí Vaše blízké při překonávání složitého období v případě Vašeho úmrtí.",
+      "risks": {
+        "KSD": "konstantní",
+        "KSDD": "klesající"
+      }
+    },
+    "KDSU": {
+      "title": "Smrt úrazem",
+      "titleShort": "Smrt úrazem",
+      "description": "Zabezpečí Vaše blízké při nečekané události.",
+      "risks": {
+        "KDSU": null
+      }
+    }
+  },
+  "CREDIT": {
+    "KuVVO": {
+      "title": "Vážná onemocnění - anuitně klesající, kompletní  - ÚVĚR",
+      "titleShort": "Vážná nemoc",
+      "risks": {
+        "KuVVO": null
+      }
+    },
+    "KuS": {
+      "title": "Doplňkové pojištění smrti - ÚVĚR",
+      "titleShort": "Smrt",
+      "risks": {
+        "KuS": null
+      }
+    },
+    "KuINV": {
+      "title": "Pojištění úvěru",
+      "titleShort": "Invalidita",
+      "risks": {
+        "KINV1Au": "I. stupně",
+        "KINV2Au": "II. stupně",
+        "KINV3Au": "III. stupně",
+        "KuVVO": null,
+        "KuPN": null,
+        "KuS": null
+      }
+    },
+    "KuPN": {
+      "title": "Pracovní neschopnost - úraz nebo nemoc - ÚVĚR",
+      "titleShort": "Pracovní neschopnost",
+      "risks": {
+        "KuPN": null
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[31779],{31779:function(e,t,r){r.r(t);var n={lastWeek:"'கடந்த' eeee p 'மணிக்கு'",yesterday:"'நேற்று ' p 'மணிக்கு'",today:"'இன்று ' p 'மணிக்கு'",tomorrow:"'நாளை ' p 'மணிக்கு'",nextWeek:"eeee p 'மணிக்கு'",other:"P"};t.default=function(e,t,r,p){return n[e]}}}]);
