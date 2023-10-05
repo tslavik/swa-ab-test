@@ -449,7 +449,7 @@
     "nonInsurableRisksTitle": "Rizika, která nelze pojistit",
     "previousOfferCostLabel": "Původní cena pojištění",
     "surchargesTitle": "Navýšení ceny za zdravotní stav",
-    "title": "Vyhodnocení zdravotních dotazů",
+    "title": "Vyhodnocení zdravotního dotazníku",
     "totalCostTitle": "Celková cena pojištění"
   },
   "navigationBackward": "Zpět",
@@ -1053,15 +1053,11 @@
       "firstButtonText": "Dokončit",
       "title": "Hotovo"
     },
-    "title": "Hotovo",
     "toBeSigned": {
       "description": "Děkujeme za důvěru v naše pojištění. Dokumenty k podpisu Vám posíláme do George.",
       "firstButtonText": "Dokončit",
       "title": "Téměř hotovo, už zbývá jen Váš podpis"
     }
-  },
-  "stepper": {
-    "title": "Krok {{currentStep}} z {{totalSteps}} - {{currentStepLabel}}"
   },
   "user": "Přihlášení uživatele",
   "validationTexts": {
